@@ -9,7 +9,7 @@ gold.fact_sales – Sales transaction data
 ![Dataset](data_set/gold.fact_sales.csv)
 
 gold.dim_customers – Customer demographic details
-![Dataset]()
+![Dataset](data_set/gold.dim_customers.csv)
 
 gold.dim_products – Product catalog and pricing details
 ![Dataset](data_set/gold.dim_products.csv)
