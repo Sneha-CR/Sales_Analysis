@@ -119,7 +119,7 @@ Two SQL views were created for reuse in dashboards or automated reporting:
 Includes segmentation by age group, order history, and recency
 
 Classifies customers into segments: VIP, Regular, New
-![Customer_report]()
+![Customer_report](gold.report_customers.csv)
 
 ## 📦 gold.report_products
 Segments products as High, Mid, or Low Performance
