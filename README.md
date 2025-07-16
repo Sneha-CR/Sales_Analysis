@@ -1,8 +1,8 @@
-🧠 SQL Sales_Data Analysis Project: Customer, Product & Sales Insights
-📌 Project Overview
+# 🧠 SQL Sales_Data Analysis Project: Customer, Product & Sales Insights
+## 📌 Project Overview
 This SQL-based project is a comprehensive exploratory and advanced data analysis of a retail sales database. The goal is to extract valuable business insights from customer, product, and sales data using structured SQL queries. This project mimics real-world scenarios where analysts must dig through large volumes of data to generate actionable business intelligence.
 
-🗂️ Dataset Description
+## 🗂️ Dataset Description
 The analysis is performed on a simulated retail database containing the following tables:
 
 gold.fact_sales – Sales transaction data
@@ -13,7 +13,7 @@ gold.dim_products – Product catalog and pricing details
 
 Each table follows a star schema structure typically used in data warehousing systems.
 
-🎯 Objectives
+## 🎯 Objectives
 This project is structured in stages, each aiming to answer key business questions using SQL:
 
 Database Exploration
@@ -40,7 +40,7 @@ Data Segmentation
 
 Reporting Views for Business Use
 
-🔍 Step-by-Step Analysis
+## 🔍 Step-by-Step Analysis
 ✅ Step 1: Database Exploration
 Extract metadata from INFORMATION_SCHEMA
 
@@ -108,20 +108,20 @@ Group products into cost ranges (e.g., <100, 100–500, >1000)
 
 Count of products in each segment
 
-📊 Reporting Views
+## 📊 Reporting Views
 Two SQL views were created for reuse in dashboards or automated reporting:
 
-🧾 gold.report_customers
+## 🧾 gold.report_customers
 Includes segmentation by age group, order history, and recency
 
 Classifies customers into segments: VIP, Regular, New
 
-📦 gold.report_products
+## 📦 gold.report_products
 Segments products as High, Mid, or Low Performance
 
 Calculates average selling price, total sales, and customer reach
 
-🛠️ Tools Used
+## 🛠️ Tools Used
 Tool	Purpose
 SQL Server	Query execution and views
 GitHub	Project versioning & sharing
