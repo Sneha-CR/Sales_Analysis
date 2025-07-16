@@ -125,7 +125,7 @@ Classifies customers into segments: VIP, Regular, New
 Segments products as High, Mid, or Low Performance
 
 Calculates average selling price, total sales, and customer reach
-![Product_report]()
+![Product_report](gold.report_products.csv)
 
 ## 🛠️ Tools Used
 Tool	Purpose
