@@ -110,7 +110,7 @@ What percent of total revenue is contributed by each category
 Group products into cost ranges (e.g., <100, 100–500, >1000)
 
 Count of products in each segment
-![Document]()
+![Document](Document.docx)
 
 ## 📊 Reporting Views
 Two SQL views were created for reuse in dashboards or automated reporting:
