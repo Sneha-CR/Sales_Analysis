@@ -6,10 +6,13 @@ This SQL-based project is a comprehensive exploratory and advanced data analysis
 The analysis is performed on a simulated retail database containing the following tables:
 
 gold.fact_sales – Sales transaction data
+![Dataset](data_set/gold.fact_sales.csv)
 
 gold.dim_customers – Customer demographic details
+![Dataset]()
 
 gold.dim_products – Product catalog and pricing details
+![Dataset]()
 
 Each table follows a star schema structure typically used in data warehousing systems.
 
@@ -107,6 +110,7 @@ What percent of total revenue is contributed by each category
 Group products into cost ranges (e.g., <100, 100–500, >1000)
 
 Count of products in each segment
+![Document]()
 
 ## 📊 Reporting Views
 Two SQL views were created for reuse in dashboards or automated reporting:
@@ -115,11 +119,13 @@ Two SQL views were created for reuse in dashboards or automated reporting:
 Includes segmentation by age group, order history, and recency
 
 Classifies customers into segments: VIP, Regular, New
+![Customer_report]()
 
 ## 📦 gold.report_products
 Segments products as High, Mid, or Low Performance
 
 Calculates average selling price, total sales, and customer reach
+![Product_report]()
 
 ## 🛠️ Tools Used
 Tool	Purpose
