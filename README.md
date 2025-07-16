@@ -12,7 +12,7 @@ gold.dim_customers – Customer demographic details
 ![Dataset]()
 
 gold.dim_products – Product catalog and pricing details
-![Dataset]()
+![Dataset](data_set/gold.dim_products.csv)
 
 Each table follows a star schema structure typically used in data warehousing systems.
 
